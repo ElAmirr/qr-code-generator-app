@@ -1,0 +1,85 @@
+body {
+    background-color: rgba(211, 213, 214, 0.3);
+}
+
+.container {
+    width: 30vw;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-container input {
+    all: unset;
+    height: 5vh;
+    width: 25vw;
+    border-radius: 8px;
+    border: 2px solid rgb(170, 169, 170);
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.input-container input:hover {
+    border: 2px solid rgb(155, 39, 175);
+}
+
+.submit {
+    all: unset;
+    min-width: 8.5em;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: rgb(155, 39, 175);
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(114, 28, 129)
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+#closeBtn {
+    display: none;
+    position: fixed;
+    top: 20%;
+    right: 30%;
+}
+
+#closeBtn svg {
+    color: red;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}

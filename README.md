@@ -27,9 +27,18 @@ This is a simple QR code generator that operates entirely on the client side. It
 
 You can host this QR code generator on platforms like GitHub Pages, Netlify, or Vercel. Simply upload the files to your chosen hosting service.
 
-## External APIs
+## JS Library
 
-If your QR code generator interacts with external APIs (like linqr for QR code generation), you can call these APIs directly from your client-side JavaScript using the Fetch API. Update the API endpoint in the `script.js` file accordingly.
+QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM. QRCode.js has no dependencies.
+
+## Screen Shot
+![Sample Screenshot](./images/screens1.png)
+![Sample Screenshot](./images/screens6.png)
+![Sample Screenshot](./images/screens2.png)
+![Sample Screenshot](./images/screens3.png)
+![Sample Screenshot](./images/screens4.png)
+![Sample Screenshot](./images/screens5.png)
+
 
 ## License
 

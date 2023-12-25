@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style_qr_type.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-container">
+            <input type="text" id="ssid" placeholder="Wifi SSID (Name)">
+            <input type="text" id="encryption" placeholder="WPA/WPA2">
+            <input type="text" id="password" placeholder="Password">
+            <input type="text" id="" placeholder="Name your QR (optional)">
+        </div>
+        <div id="qrcode"></div>
+        <button class="submit" id="submit-wifi">Generate QR Code</button>
+    </div>
+    <script src="../wifiqrscript.js"></script>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+</body>
+</html>
