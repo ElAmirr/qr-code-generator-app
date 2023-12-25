@@ -27,7 +27,7 @@ body {
     gap: 20px;
 }
 
-.input-container input {
+.input-container input, select {
     all: unset;
     height: 5vh;
     width: 25vw;
@@ -38,7 +38,16 @@ body {
     font-size: 1.2em;
 }
 
-.input-container input:hover {
+.input-container input::placeholder {
+    color: rgb(99, 99, 99);
+}
+
+.input-container select {
+    color: rgb(99, 99, 99);;
+    align-items: center;
+}
+
+.input-container input:hover, select:hover {
     border: 2px solid rgb(155, 39, 175);
 }
 
