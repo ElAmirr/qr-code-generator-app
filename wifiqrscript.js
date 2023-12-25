@@ -4,6 +4,8 @@ let submitWifi = document.getElementById('submit-wifi')
 submitWifi.addEventListener('click', generateWifiQrCode)
 
 function generateWifiQrCode() {
+    var overlay = document.getElementById('overlay');
+    var closeBtn = document.getElementById('closeBtn');
     var qrcodeContainer = document.getElementById('qrcode');
 
     var wifiInfo = {
@@ -20,4 +22,15 @@ function generateWifiQrCode() {
         colorDark: '#000000',
         colorLight: '#ffffff',
     });
+
+    overlay.style.display = 'flex'
+    closeBtn.style.display = 'flex'
+
+    closeBtn.addEventListener('click', closeQr)
+    
+    function closeQr() {
+            closeBtn.style.display = 'none'
+            overlay.style.display = 'none'
+            qrcodeContainer.innerHTML = ''
+    }
 }
