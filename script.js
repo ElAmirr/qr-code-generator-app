@@ -1,6 +1,6 @@
 // Url
 function openUrlTab() {
-    let url = 'http://127.0.0.1:5500/qr_type/url.html'
+    let url = 'https://magnificent-zabaione-97bb1a.netlify.app/qr_type/url.html'
     window.open(url, '_blank')
 }
 
@@ -10,7 +10,7 @@ openUrlTabButton.addEventListener('click', openUrlTab)
 
 // Wifi
 function openWifiTab() {
-    let url ='http://127.0.0.1:5500/qr_type/wifi.html'
+    let url ='https://magnificent-zabaione-97bb1a.netlify.app/qr_type/wifi.html'
     window.open(url, '_blank')
 }
 
@@ -20,7 +20,7 @@ openWifiTabButton.addEventListener('click', openWifiTab)
 
 // Pdf
 function openPdfTab() {
-    let url ='http://127.0.0.1:5500/qr_type/pdf.html'
+    let url ='https://magnificent-zabaione-97bb1a.netlify.app/qr_type/pdf.html'
     window.open(url, '_blank')
 }
 
